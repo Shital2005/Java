@@ -41,3 +41,32 @@ public class ParenthesisChecker{
 }
 
 }
+
+
+
+// sum
+// avg
+// min
+// max
+// count 
+// between
+// and
+// or
+// in
+// Not
+// like
+// not between 
+// where
+// group by
+// is null
+// order by 
+// having clause
+
+
+
+
+
+
+
+
+

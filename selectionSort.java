@@ -10,9 +10,9 @@ public class SelectionSort {
     // Find the index of the minimum element
     int findMinIndex(int[] A, int start) {
         int min_index = start;
-        for (int i = start + 1; i < A.length; i++) {  // Corrected loop logic
-            if (A[i] < A[min_index]) {
-                min_index = i;  // Update min_index, not swap here
+        for (int i = start + 1; i < A.length; i++) {  // Loop through the remaining array
+            if (A[i] < A[min_index]) {  // Correct comparison
+                min_index = i;  // Update the index of the minimum element
             }
         }
         return min_index;
@@ -21,7 +21,7 @@ public class SelectionSort {
     // Selection sort implementation
     void selectionSort(int[] A) {
         for (int i = 0; i < A.length; i++) {
-            int min_index = findMinIndex(A, i);
+            int min_index = findMinIndex(A, i);  // Find the index of the minimum element
             if (i != min_index) {
                 swap(A, i, min_index);  // Swap the current element with the minimum found
             }
@@ -30,14 +30,15 @@ public class SelectionSort {
 
     public static void main(String[] args) {
         int A[] = {5, 4, 3, 2, 1};
-        
-        // Create an instance of SelectionSort to call the non-static method
+    
         SelectionSort sorter = new SelectionSort();
         sorter.selectionSort(A);  // Call the selectionSort method
         
-        // Print sorted array
+        // Print final sorted array
+        System.out.print("Sorted array: ");
         for (int num : A) {
             System.out.print(num + " ");
         }
+        System.out.println();  // To print a newline after output
     }
 }

@@ -1,3 +1,4 @@
+package Value_Ranges;
 public class Solution {
     public int solve(int[] A) {
         int n = A.length;

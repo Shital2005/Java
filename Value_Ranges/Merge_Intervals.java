@@ -1,3 +1,4 @@
+package Value_Ranges;
 public class Solution {
     public ArrayList<Interval> insert(ArrayList<Interval> intervals, Interval newInterval) {
         ArrayList<Interval> result = new ArrayList<>();

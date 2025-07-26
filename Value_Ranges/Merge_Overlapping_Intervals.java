@@ -1,3 +1,4 @@
+package Value_Ranges;
 public class Merge_Overlapping_Intervals {
 
     public static List<int[]> merge(List<int[]> intervals) {

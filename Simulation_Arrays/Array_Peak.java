@@ -1,3 +1,4 @@
+package Simulation_Arrays;
 public import java.util.*;
 
 public class Array_Peak {

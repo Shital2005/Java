@@ -1,3 +1,4 @@
+package Array_Math;
 class pick_from_both_sides {
     public int solve(int[] A, int B) {
         int n = A.length;

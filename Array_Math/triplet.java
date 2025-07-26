@@ -1,3 +1,4 @@
+package Array_Math;
 import java.util.*;
 
 public class triplet {

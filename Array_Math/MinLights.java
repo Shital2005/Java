@@ -1,3 +1,4 @@
+package Array_Math;
 public class MinLights {
     public int solve(int[] A, int B) {
         int n = A.length;

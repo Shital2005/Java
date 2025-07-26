@@ -1,3 +1,4 @@
+package Array_Math;
 public class MinSteps {
     public int coverPoints(int[] A, int[] B) {
         int steps = 0;

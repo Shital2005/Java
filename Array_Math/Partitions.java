@@ -1,3 +1,4 @@
+package Array_Math;
 public class Partitions {   
     public int solve(int A,int[] B){
         for(int i = 0;i<A;i++){

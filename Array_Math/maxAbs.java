@@ -1,3 +1,4 @@
+package Array_Math;
 public class Solution {
     public int maxAbs(int[] A) {
        int max1 = Integer.MIN_VALUE;

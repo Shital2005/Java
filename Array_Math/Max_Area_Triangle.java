@@ -1,3 +1,4 @@
+package Array_Math;
 public class Solution {
     static int MAXC = 3;        // 3 colors: 'r', 'g', 'b'
     static int MAXN = 1009;     // Max possible columns
